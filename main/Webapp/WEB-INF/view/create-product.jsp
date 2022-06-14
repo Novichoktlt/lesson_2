@@ -5,10 +5,10 @@
     <title>Product</title>
 </head>
 <body>
+<%--@elvariable id="product" type="ru.gb.entity.Product"--%>
 <form:form action="create" modelAttribute="product">
 
-    Id: <form:input path="id" />
-    <br>
+
     Title: <form:input path="title"/>
     <br>
     Price: <form:input path="price"/>

@@ -6,6 +6,7 @@
 </head>
 <body>
 
+<%--@elvariable id="product" type="lombok"--%>
 <form:form action="edit" modelAttribute="product">
     <br>
     Title: <form:input path="title"/>

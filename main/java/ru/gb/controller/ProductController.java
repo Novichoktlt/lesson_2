@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import ru.gb.model.Product;
-import ru.gb.repository.ProductProvider;
+import ru.gb.entity.Product;
+
+import ru.gb.repository.ProductDao;
 import ru.gb.service.ProductService;
 
 @Controller
@@ -18,10 +19,14 @@ import ru.gb.service.ProductService;
 @RequiredArgsConstructor
 @Slf4j
 public class ProductController {
+
     boolean start = true;
-    private final ProductProvider productProvider;
+
+
     private final ProductService productService;
-    Integer editId;
+    private final ProductDao productDao;
+    Long editId;
+
 
     @RequestMapping(value = "/create", method = RequestMethod.GET)
     public String showForm(Model model) {
@@ -36,7 +41,7 @@ public class ProductController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public String showChangeForm(Model model, @PathVariable Integer id,
+    public String showChangeForm(Model model, @PathVariable Long id,
                                  @RequestParam(name="delete", defaultValue = "false", required = false)
                                          Boolean isDelete) {
         if (!isDelete) {
@@ -51,7 +56,8 @@ public class ProductController {
 
     @RequestMapping(value = "/edit", method = RequestMethod.POST)
     public String changeForm(Product product) {
-        productService.edit(product, editId);
+        product.setId(editId);
+        productService.save(product);
         return "redirect:/product/all";
     }
 
@@ -59,24 +65,25 @@ public class ProductController {
     public String getAllMessages(Model model) {
         model.addAttribute("findProduct", new Product());
         if (start) {
-            model.addAttribute("msg", productProvider.getProduct());
+            model.addAttribute("msg", productDao.findAll());
             start = false;
         }
         model.addAttribute("products", productService.findAll());
         return "product-list";
     }
 
-    @RequestMapping(value = "/delete", method = RequestMethod.GET)
-    public String show(Model model) {
-        model.addAttribute("product", new Product());
-        return "delete";
-    }
+//    @RequestMapping(value = "/delete", method = RequestMethod.GET)
+//    public String show(Model model) {
+//        model.addAttribute("product", new Product());
+//        return "delete";
+//    }
 
     @RequestMapping(path = "/search", method = RequestMethod.POST)
     public String findById(Product product, Model model) {
         Product findProduct;
-        findProduct = productService.findById(product);
+        findProduct = productService.findById(product.getId());
         model.addAttribute("findProduct", findProduct);
         return "search";
     }
+
 }

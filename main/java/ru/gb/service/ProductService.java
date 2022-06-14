@@ -1,34 +1,39 @@
 package ru.gb.service;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Service;
-import ru.gb.model.Product;
-import ru.gb.repository.ProductRepository;
+import ru.gb.config.JpaConfig;
+import ru.gb.entity.Product;
+import ru.gb.repository.ProductDao;
+
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 public class ProductService {
 
-    private final ProductRepository productRepository;
+   @Autowired
+    private ProductDao productDao;
 
     public void save(Product product) {
-        productRepository.save(product);
+        productDao.save(product);
     }
 
-    public void edit(Product product, Integer editId) {
-        productRepository.edit(product, editId);
+//    public void edit(Product product, Integer editId) {
+//        productDao.edit(product, editId);
+//    }
+
+    public Product findById(Long id) {
+        return productDao.findById(id);
     }
 
-    public Product findById(Product product) {
-        return productRepository.findById(product);
+    public Iterable<Product> findAll() {
+        return productDao.findAll();
     }
 
-    public List<Product> findAll() {
-        return productRepository.findAll();
-    }
-
-    public void deleteById(Integer id) {
-        productRepository.deleteById(id);
+    public void deleteById(Long id) {
+        productDao.deleteById(id);
     }
 }
