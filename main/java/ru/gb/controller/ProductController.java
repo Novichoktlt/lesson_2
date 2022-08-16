@@ -1,6 +1,5 @@
 package ru.gb.controller;
 
-
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -21,7 +20,6 @@ import ru.gb.service.ProductService;
 public class ProductController {
 
     boolean start = true;
-
 
     private final ProductService productService;
     private final ProductDao productDao;
@@ -71,12 +69,6 @@ public class ProductController {
         model.addAttribute("products", productService.findAll());
         return "product-list";
     }
-
-//    @RequestMapping(value = "/delete", method = RequestMethod.GET)
-//    public String show(Model model) {
-//        model.addAttribute("product", new Product());
-//        return "delete";
-//    }
 
     @RequestMapping(path = "/search", method = RequestMethod.POST)
     public String findById(Product product, Model model) {

@@ -3,7 +3,6 @@ package ru.gb.repository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import ru.gb.entity.Product;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -16,7 +15,6 @@ public class EntityManagerProductDao implements ProductDao {
 
     List<Product> products = new ArrayList<>();
 
-
     @PersistenceContext
     private EntityManager entityManager;
 
@@ -25,14 +23,12 @@ public class EntityManagerProductDao implements ProductDao {
         return entityManager.createQuery("SELECT p FROM Product p").getResultList();
     }
 
-
     @Override
     public String findNameById(Long id) {
         TypedQuery<String> namedQuery = entityManager.createNamedQuery("Product.findNameById", String.class);
         namedQuery.setParameter("id", id);
         return namedQuery.getSingleResult();
     }
-
 
     @Override
     public Product findById(Long id) {
