@@ -1,0 +1,9 @@
+ru\gb\service\ProductService.class
+ru\gb\config\JpaConfig.class
+ru\gb\repository\ProductDao.class
+ru\gb\entity\Product.class
+ru\gb\config\WebConfig.class
+ru\gb\controller\ProductController.class
+ru\gb\repository\EntityManagerProductDao.class
+ru\gb\config\Configurations.class
+ru\gb\entity\Product$ProductBuilder.class
