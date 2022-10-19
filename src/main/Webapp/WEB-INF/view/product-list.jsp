@@ -12,8 +12,16 @@
     Find: <form:input path="id" />
     <input type="submit" value="Search">
 </form:form>
+<c:url var="maxUrl" value="/product/all?sort=max"/>
+<c:url var="mixUrl" value="/product/all?sort=mix"/>
+<a href="${maxUrl}">MAX</a> <a href="${mixUrl}">MIX</a>
+<form:form action="show" modelAttribute="findProduct" >
+    with: <input type="text" name="min" value="0" />
+    to: <input type="text" name="max" value="0" />
+    <input type="submit" value="show">
+</form:form>
+
 <ul>
-    <%--@elvariable id="products" type="ru.gb.entity.Product"--%>
     <c:forEach var="product" items="${products}">
         <c:url var="editUrl" value="/product/${product.id}"/>
         <c:url var="deleteUrl" value="/product/${product.id}?delete=true"/>
@@ -31,9 +39,5 @@
 
 <a href="${createUrl}">ADD</a>
 <br>
-
-
-
-
 </body>
 </html>

@@ -5,111 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1d454-e2e1-4da0-93d4-632165fad475" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lesson_2_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lesson_2_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/app.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/son_2_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/create-product.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/edit.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/product-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/config/Configurations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/config/JpaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/repository/EntityManagerProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/repository/ProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ddl.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Webapp/WEB-INF/view/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/repository/EntityManagerProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/repository/EntityManagerProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/repository/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/repository/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/META-INF/maven/ru.gb/lesson_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/META-INF/maven/ru.gb/lesson_2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/test-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/create-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/create-product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/config/JpaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/config/JpaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/repository/EntityManagerProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/repository/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/repository/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/classes/ru/gb/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/product-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/WEB-INF/view/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/lesson_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/SESSIONS.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/create_002dproduct_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/create_002dproduct_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/product_002dlist_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/product_002dlist_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/product_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/product_002dlist_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/search_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/work/Tomcat/localhost/lesson_2/org/apache/jsp/WEB_002dINF/view/search_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/gb/config/JpaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/gb/config/JpaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/gb/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/gb/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/gb/repository/EntityManagerProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/gb/repository/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/gb/repository/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/gb/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/gb/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lesson_2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/test-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/create-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/create-product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/config/JpaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/config/JpaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/repository/EntityManagerProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/repository/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/repository/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/classes/ru/gb/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/product-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/WEB-INF/view/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lesson_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/lesson_2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,14 +63,21 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -132,6 +85,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EE5865UaxlDYVpAtNmRsVxXAIg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -150,10 +106,13 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6360f2304eaacfafd4f622f904affca3&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.com.haulmont.jpb.tools&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f93504577be897f6d45e3e832fd0f1aa&quot;
   }
 }</component>
   <component name="RunManager">
@@ -196,6 +155,10 @@
       <workItem from="1662147760801" duration="1069000" />
       <workItem from="1662148916927" duration="953000" />
       <workItem from="1662150240328" duration="546000" />
+      <workItem from="1662151223309" duration="2109000" />
+      <workItem from="1663715100626" duration="3845000" />
+      <workItem from="1664406331376" duration="50333000" />
+      <workItem from="1665690459287" duration="50117000" />
     </task>
     <servers />
   </component>
@@ -212,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

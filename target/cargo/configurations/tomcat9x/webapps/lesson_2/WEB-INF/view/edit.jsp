@@ -8,10 +8,11 @@
 
 <%--@elvariable id="product" type="lombok"--%>
 <form:form action="edit" modelAttribute="product">
+
     <br>
-    Title: <form:input path="title"/>
+    Title: <input type="text" name="title" value="${findProduct.title}" />
     <br>
-    Price: <form:input path="price"/>
+    Price: <input type="text" name="price" value="${findProduct.price}" />
     <br>
     <input type="submit" value="EDIT">
 </form:form>

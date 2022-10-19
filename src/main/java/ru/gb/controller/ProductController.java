@@ -2,22 +2,24 @@ package ru.gb.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 import ru.gb.entity.Product;
 
 import ru.gb.repository.ProductDao;
 import ru.gb.service.ProductService;
 
-@Controller
+import java.math.BigDecimal;
+import java.util.List;
+import java.util.Optional;
+
+
+@RestController
 @RequestMapping("/product")
 @RequiredArgsConstructor
 @Slf4j
-public class ProductController {
+class ProductController {
 
     boolean start = true;
 
@@ -26,56 +28,69 @@ public class ProductController {
     Long editId;
 
 
-    @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public String showForm(Model model) {
+    @GetMapping("/create")
+    public ModelAndView showForm(Model model) {
         model.addAttribute("product", new Product());
-        return "create-product";
+        return new ModelAndView("create-product");
     }
 
-    @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String processForm(Product product) {
+    @PostMapping( "/create")
+    public ModelAndView processForm(Product product) {
         productService.save(product);
-        return "redirect:/product/all";
+        return new ModelAndView("redirect:/product/all");
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public String showChangeForm(Model model, @PathVariable Long id,
+    @GetMapping( "/{id}")
+    public ModelAndView showChangeForm( Model model, @PathVariable Long id,
                                  @RequestParam(name="delete", defaultValue = "false", required = false)
                                          Boolean isDelete) {
         if (!isDelete) {
             editId = id;
+            Optional<Product> findProduct;
+            findProduct = productService.findById(editId);
             model.addAttribute("product", new Product());
-            return "edit";
+            model.addAttribute("findProduct", findProduct.get());
+            return new ModelAndView("edit");
         } else {
             productService.deleteById(id);
-            return "redirect:/product/all";
+            return new ModelAndView("redirect:/product/all");
         }
     }
 
-    @RequestMapping(value = "/edit", method = RequestMethod.POST)
-    public String changeForm(Product product) {
+    @PostMapping("/edit")
+    public ModelAndView changeForm(Product product) {
         product.setId(editId);
         productService.save(product);
-        return "redirect:/product/all";
+        return new ModelAndView("redirect:/product/all");
     }
 
-    @RequestMapping(path = "/all", method = RequestMethod.GET)
-    public String getAllMessages(Model model) {
+    @GetMapping("/app")
+    public ModelAndView getApp(Model model) {
         model.addAttribute("findProduct", new Product());
-        if (start) {
-            model.addAttribute("msg", productDao.findAll());
-            start = false;
-        }
-        model.addAttribute("products", productService.findAll());
-        return "product-list";
+        return new ModelAndView("app");
+    }
+    @GetMapping("/all")
+    public ModelAndView getAllMessages(Model model, @RequestParam(name="sort", defaultValue = "")
+    String isSort) {
+        model.addAttribute("findProduct", new Product());
+        model.addAttribute("products", productService.findAllSortedByPrice(isSort));
+        return new ModelAndView("product-list");
     }
 
-    @RequestMapping(path = "/search", method = RequestMethod.POST)
-    public String findById(Product product, Model model) {
-        Product findProduct;
+    @PostMapping("/search")
+    public ModelAndView findById(Product product, Model model) {
+        Optional<Product> findProduct;
         findProduct = productService.findById(product.getId());
-        model.addAttribute("findProduct", findProduct);
-        return "search";
+        model.addAttribute("findProduct", findProduct.get());
+        return new ModelAndView("search");
     }
 
+    @PostMapping("/show")
+    public ModelAndView findByPrice(BigDecimal min, BigDecimal max, Model model) {
+        model.addAttribute("findProduct", new Product());
+        Iterable<Product> products;
+        products = productService.findByPrice(min, max);
+        model.addAttribute("products", products);
+        return new ModelAndView("product-list");
+    }
 }
